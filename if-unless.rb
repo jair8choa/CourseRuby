@@ -7,7 +7,7 @@ else
     puts "if: is false"
 end
 
-unless isFalse  # unless true == if !true == if false
+unless isFalse  # unless true == if !true || if false
     puts "unless: is false"
 else 
     puts "unless: is true" 
