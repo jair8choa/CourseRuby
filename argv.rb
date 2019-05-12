@@ -1,3 +1,3 @@
 argv = ARGV
 
-puts "Hola #{argv[0]}!" # shell: ruby argv.rb Joaquin
+puts "Hola #{argv[0]}!" # $ruby argv.rb Joaquin
