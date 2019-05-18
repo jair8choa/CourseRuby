@@ -6,5 +6,5 @@ puts "hi".is_a? String # True
 
 puts [1,2,3,4].is_a? Array # True
 
-myHash = {name: 'Joaquin'}
-puts myHash.is_a? Hash # True
+my_hash = {name: 'Joaquin'}
+puts my_hash.is_a? Hash # True

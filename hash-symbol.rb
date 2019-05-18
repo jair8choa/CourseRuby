@@ -1,9 +1,9 @@
-myInfo = {
-    firstName: 'Joaquin Jairo', # :firstName => 'Joaquin Jairo'
-    lastName: 'Ochoa Canela',
+my_info = {
+    first_name: 'Joaquin Jairo', # :first_name => 'Joaquin Jairo'
+    last_name: 'Ochoa Canela',
     ages: 18,
 }
 
-myInfo.each do | k,v |
+my_info.each do | k,v |
     puts "#{k.upcase}: #{v}"
 end

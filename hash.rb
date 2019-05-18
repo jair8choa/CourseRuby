@@ -1,22 +1,22 @@
 #Ruby(Hashes) == Javascript(Objects)
 
 =begin
-myInfo = {
-    "firstName" => "Joaquin Jairo",
-    "lastName" => "Ochoa Canela",
+my_info = {
+    "first_name" => "Joaquin Jairo",
+    "last_name" => "Ochoa Canela",
     "ages" => 18
 } 
 =end
 
 
-myInfo = Hash.new
+my_info = Hash.new
 print 'First Name: '
-myInfo['firstName'] = gets.chomp
+my_info['first_name'] = gets.chomp
 print 'Last Name: '
-myInfo['lastName'] = gets.chomp
+my_info['last_name'] = gets.chomp
 print 'Age: '
-myInfo['age'] = gets.chomp
+my_info['age'] = gets.chomp
 puts "Hash:"
-myInfo.each do | key,value | 
+my_info.each do | key,value | 
    puts key+" = "+value.capitalize
 end

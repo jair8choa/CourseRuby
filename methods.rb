@@ -1,6 +1,6 @@
-def helloName(name)
+def hello_name(name)
     puts "Hello, #{name.capitalize}"
 end
 
-helloName('joaquin')
-helloName('jairo')
+hello_name('joaquin')
+hello_name('jairo')

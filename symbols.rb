@@ -1,13 +1,13 @@
-myString = "string"
-puts myString.object_id
+my_string = "string"
+puts my_string.object_id
 puts "string".object_id
 
-mySymbol = :symbol
-puts mySymbol.object_id
+my_symbol = :symbol
+puts my_symbol.object_id
 puts :symbol.object_id
 
 puts "string" == :string # "symbols" != :string
 
-myNewString = :sasquatch.to_s 
+my_new_string = :sasquatch.to_s 
 
-myNewSymbol = "sasquatch".to_sym # or .intern
+my_new_symbol = "sasquatch".to_sym # or .intern

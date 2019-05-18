@@ -1,13 +1,13 @@
-isTrue = true
-isFalse = false
+is_true = true
+is_false = false
 
-if isTrue 
+if is_true 
     puts "if: is true"
 else 
     puts "if: is false"
 end
 
-unless isFalse  # unless true == if !true || if false
+unless is_False  # unless true == if !true || if false
     puts "unless: is false"
 else 
     puts "unless: is true" 
